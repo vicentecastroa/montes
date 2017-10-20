@@ -1,0 +1,84 @@
+h1, h2, h3, h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+}
+
+p, h5{
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	line-height: 180%;
+}
+
+br {
+	line-height: 225%
+}
+
+li {
+	font-size: 0.9rem;
+}
+
+.dark-font {
+	color: #222127;
+}
+
+.dark-grey-font {
+	color: #565659; 
+}
+
+.light-grey-font {
+	color: #908f90;
+}
+
+.yellow-font {
+	color: #C8AC48;
+}
+
+.white-font {
+	color: white;
+}
+
+.titulo-area {
+	color: white;
+}
+
+.section-tittle {
+	padding: 5rem 0 5rem 0;
+	font-size: 2.75rem;
+}
+
+.sub-section-tittle {
+	margin-bottom: 2rem;
+}
+
+
+#montes-abogados {
+	font-weight: 400;
+	font-size: 3.5rem;
+}
+
+
+#consultanos {
+	margin-top: 2rem;
+}
+
+.address {
+	line-height: 100%;
+}
+
+.form-control {
+	color: #908f90;
+}
+
+.form-control:focus {
+	color: #908f90;
+}
+
+@media only screen and (min-width: 768px) {
+    #firma-text {
+		padding: 0 5rem;
+	}
+
+	.section-tittle {
+		padding-top: 1.5rem;
+	}
+
+}

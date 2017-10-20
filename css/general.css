@@ -1,0 +1,124 @@
+body {
+	height: 100%;
+}
+
+
+
+#landing {
+	padding: 10rem 0;
+	height: 40rem;
+	background-color: transparent;
+}
+
+#nuestra-firma {
+	background-color: #F2EFEB;
+}
+
+#areas {
+	background-color: rgba(34, 33, 39, 0.92);
+}
+
+#abogados {
+	background-color: #F2EFEB;
+}
+
+#contacto {
+	background-color: rgba(34, 33, 39, 0.95);
+}
+
+.nombre-abogado {
+	background-color: rgb(34,33,39);
+	padding: 0.5rem 0rem;
+}
+
+.abogado-box{
+	margin-bottom: 2rem;
+}
+
+.fa {
+	margin-right: 0.5rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+#mobile-backup-form {
+	display: none;
+}
+
+form {
+	margin-top: 4rem;
+}
+
+.contacto-col {
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.form-control {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	border-bottom: 0.2rem solid #C8AC48 ;
+}
+
+.form-control:focus {
+	background-color: transparent;
+	border-bottom: 0.2rem solid #C8AC48 ;
+}
+
+#send-button {
+	border-radius: 0;
+	background-color: #C8AC48;
+	color: #222127;
+}
+
+#send-button:hover {
+	border-radius: 0;
+	background-color: #e5cf80		;
+	color: #222127;
+}
+
+#firma-text {
+	margin-bottom: 0;
+	padding-bottom: 2rem;
+}
+
+.texto-area-closed{
+  overflow:hidden;
+  height: 9rem;
+}
+
+.texto-area-open {
+	overflow: auto;
+	height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    #contacto {
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
+
+	#contact-info {
+		padding-left: 2rem;
+		padding-right: 5rem;
+	}
+
+	.nombre-abogado{
+		margin: 0 3rem;
+	}
+
+	ul {
+		padding: 0 3.5rem;
+	}
+
+	.section {
+	padding: 5rem 0;
+	}
+
+
+}
