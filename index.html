@@ -9,14 +9,47 @@
 
 	<link rel="stylesheet" type="text/css" href="css/general.css">
 	<link rel="stylesheet" type="text/css" href="css/typography.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400" rel="stylesheet">
 	<script src="https://use.fontawesome.com/680c4bf035.js"></script>
 
 </head>
 <body>
 
-<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="images/skyline.jpg" id="landing">
-	<h1 class="text-center dark-font" id="montes-abogados">MONTES Abogados</h1>
+<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-blue" id="navbar">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand text-uppercase" href="#">Montes Abogados</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link text-uppercase" name="#nuestra-firma">Nuestra Firma<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-uppercase" name="#areas">Áreas de Práctica</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-uppercase" name="#abogados">Abogados</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-uppercase" name="#oficina">Nuestra Oficina</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-uppercase" name="#contacto">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="images/landing-image.jpg" id="landing">
+	<h1 class="text-center" id="montes-abogados">Montes Abogados</h1>
+	<h3 class="text-center">
+	<svg height="40" width="280">
+	  <line x1="0" y1="0" x2="280" y2="0" style="stroke:rgb(200, 172, 72);stroke-width:20" />
+	</svg>
+	</h3>
 </div>
 
 <div class="container-fluid section" id="nuestra-firma">
@@ -35,23 +68,48 @@
 		<div class="row">
 			<div class="col-12 col-sm-4">
 				<h3 class="titulo-area">Derecho de Familia</h3>
-				<p class="light-grey-font">Contamos con un equipo especializado en otorgar asesoría en materia de familia. Estando conscientes de la importancia de esta área del derecho, prestamos servicios en divorcios, nulidades matrimoniales, alimentos, cuidado personal, relación directa y regular, adopción, acciones de filiación, bienes familiares, compensaciones económicas, autorización de salida del país a menores de edad, entre otras.</p>
+				<p class="light-grey-font">
+					<span class="teaser">Contamos con un equipo especializado en otorgar asesoría en materia de familia. Estando conscientes de la importancia de esta área del derecho, prestamos servicios en divorcios, nulidades, matrimoniales, alimentos</span>
+					<span class="l3p"> ... </span>
+					<span class="complete"> cuidado personal, relación directa y regular, adopción, acciones de filiación, bienes familiares, compensaciones económicas, autorización de salida del país a menores de edad, entre otras.</span>
+					<span class="more-btn font-italic"><br>Ver más</span>
+				</p>
 			</div>
 			<div class="col-12 col-sm-4">
 				<h3 class="titulo-area">Derecho Inmobiliario</h3>
-				<p class="light-grey-font">La asesoría en esta materia abarca la planificación del respectivo proyecto y el diseño de la mejor estructura de desarrollo. Entre otras gestiones, cabe mencionar la formación de paños de terreno, su compra, subdivisión y loteo; estudios de título; aspectos corporativos en la formación de asociaciones o consorcios de desarrollo; aspectos relativos a los permisos y autorizaciones municipales, ministeriales y otros organismos; temas de regulación y planificación urbana; aspectos medio ambientales; financiamiento de proyectos; hipotecas; temas propios de la co-propiedad inmobiliaria; bienes nacionales; expropiaciones; responsabilidad en el sector inmobiliario; servidumbres; seguros y en general, todas las materias propias hasta la entera comercialización de los proyectos.</p>
+				<p class="light-grey-font">
+					<span class="teaser">La asesoría en esta materia abarca la planificación del respectivo proyecto y el diseño de la mejor estructura de desarrollo. Entre otras gestiones, cabe mencionar la formación de paños de terreno, su compra, subdivisión y loteo; estudios de título;</span>
+					<span class="l3p"> ... </span>
+					<span class="complete">aspectos corporativos en la formación de asociaciones o consorcios de desarrollo; aspectos relativos a los permisos y autorizaciones municipales, ministeriales y otros organismos; temas de regulación y planificación urbana; aspectos medio ambientales; financiamiento de proyectos; hipotecas; temas propios de la co-propiedad inmobiliaria; bienes nacionales; expropiaciones; responsabilidad en el sector inmobiliario; servidumbres; seguros y en general, todas las materias propias hasta la entera comercialización de los proyectos.</span>
+					<span class="more-btn font-italic"><br>Ver más</span>
+				</p>
 			</div>
 			<div class="col-12 col-sm-4">
 				<h3 class="titulo-area">Derecho Civil</h3>
-				<p class="light-grey-font">Siendo una de las materias más importantes de nuestra legislación, nuestro estudio jurídico tiene especial énfasis en esta materia. Entre otras asesorías, prestamos servicios en contratos civiles de toda clase, tales como compraventa, arrendamiento, transacciones, promesa, cesión de derechos, entre otros. Del mismo modo, gestionamos materias propias del derecho sucesorio, tales como posesiones efectivas, testamentos abiertos y cerrados, juicios de partición de bienes. Asimismo, nuestro estudio se enfoca en materias propias de responsabilidad contractual y extra contractual, así como hipotecas, fianzas, usufructos, traspaso de propiedades, prendas, responsabilidad por daños patrimoniales y morales; y en general todas las materias vinculadas al derecho civil.</p>
+				<p class="light-grey-font">
+					<span class="teaser">Siendo una de las materias más importantes de nuestra legislación, nuestro estudio jurídico tiene especial énfasis en esta materia. Entre otras asesorías, prestamos servicios en contratos civiles de toda clase, tales como compraventa, arrendamiento, transacciones, promesa</span>
+					<span class="l3p"> ... </span>
+					<span class="complete">cesión de derechos, entre otros. Del mismo modo, gestionamos materias propias del derecho sucesorio, tales como posesiones efectivas, testamentos abiertos y cerrados, juicios de partición de bienes. Asimismo, nuestro estudio se enfoca en materias propias de responsabilidad contractual y extra contractual, así como hipotecas, fianzas, usufructos, traspaso de propiedades, prendas, responsabilidad por daños patrimoniales y morales; y en general todas las materias vinculadas al derecho civil.</span>
+					<span class="more-btn font-italic"><br>Ver más</span>
+				</p>
 			</div>
 			<div class="col-12 col-sm-4">
 				<h3 class="titulo-area">Derecho Comercial</h3>
-				<p class="light-grey-font">La asesoría en esta materia abarca todo tipo de contratos comerciales, como compraventas mercantiles, contrato de construcción y garantías, leasing, operaciones de crédito de dinero, contrato de transporte, seguros, entre otros. Del mismo modo, nuestro estudio se especializa en la creación, modificación y extinción de toda clase de sociedades, como limitadas, por acciones, anónimas. Prestamos asesoría además en lo que respecta al Sernac, fianza mercantil, prendas sin desplazamientos y toda clase de garantías comerciales.</p>
+				<p class="light-grey-font">
+					<span class="teaser">La asesoría en esta materia abarca todo tipo de contratos comerciales, como compraventas mercantiles, contrato de construcción y garantías, leasing, operaciones de crédito de dinero, contrato de transporte, seguros, entre otros.</span>
+					<span class="l3p"> ... </span>
+					<span class="complete">Del mismo modo, nuestro estudio se especializa en la creación, modificación y extinción de toda clase de sociedades, como limitadas, por acciones, anónimas. Prestamos asesoría además en lo que respecta al Sernac, fianza mercantil, prendas sin desplazamientos y toda clase de garantías comerciales.</span>
+					<span class="more-btn font-italic"><br>Ver más</span>
+				</p>
 			</div>
 			<div class="col-12 col-sm-4">
 				<h3 class="titulo-area">Derecho Constitucional</h3>
-				<p class="light-grey-font">Constituyendo el pilar fundamental de nuestro ordenamiento jurídico, nuestra asesoría en el Derecho Constitucional es basta, e incluye, entre otras materias, la interposición de acciones de protección, amparo, amparo económico desconocimiento de la nacionalidad chilena, todas las cuales dicen relación con los derechos y garantías reconocidas por nuestra Constitución. Entre otros derechos amparados por nuestro sistema jurídico está el derecho a la vida,  integridad física y psíquica, la vida privada, el derecho de propiedad, entre otros. En fin, tratamos todas las materias que tengan relación con esta materia.</p>
+				<p class="light-grey-font">
+					<span class="teaser">Constituyendo el pilar fundamental de nuestro ordenamiento jurídico, nuestra asesoría en el Derecho Constitucional es basta, e incluye, entre otras materias, la interposición de acciones de protección, amparo, amparo económico desconocimiento de la nacionalidad chilena, todas las cuales dicen relación con los derechos y garantías reconocidas por nuestra Constitución.</span>
+					<span class="l3p"> ... </span>
+					<span class="complete">Entre otros derechos amparados por nuestro sistema jurídico está el derecho a la vida,  integridad física y psíquica, la vida privada, el derecho de propiedad, entre otros. En fin, tratamos todas las materias que tengan relación con esta materia.</span>
+					<span class="more-btn font-italic"><br>Ver más</span>
+				</p>
 			</div>
 			<div class="col-12 col-sm-4">
 				<h3 class="titulo-area">Solución Alternativa de Conflictos</h3>
@@ -92,6 +150,18 @@
 	</div>
 </div>
 
+<div class="container-fluid section" id="oficina">
+	<h2 class="text-center section-tittle dark-font"> Nuestra Oficina</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-sm-3"><img class="img-fluid" src="images/office_01.png"></div>
+			<div class="col-6 col-sm-3"><img class="img-fluid" src="images/office_02.jpg"></div>
+			<div class="col-6 col-sm-3"><img class="img-fluid" src="images/office_03.png"></div>
+			<div class="col-6 col-sm-3"><img class="img-fluid" src="images/office_04.jpg"></div>
+		</div>
+	</div>
+</div>
+
 <div class="container-fluid section parallax-window" data-parallax="scroll" data-image-src="images/law-patrick-fore-379185.jpg" id="contacto">
 	<h2 class="text-center section-tittle yellow-font">Contacto</h2>
 	<div class="row">
@@ -102,8 +172,7 @@
 			  width="600"
 			  height="450"
 			  frameborder="0" style="border:0"
-			  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBrWk3y5WU0DVUNsx30VhTTR2ts6JB-83M
-			    &q=Space+Needle,Seattle+WA" allowfullscreen>
+			  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7QwzHd3OYpYRmDpJ9YOifug&key=AIzaSyBrWk3y5WU0DVUNsx30VhTTR2ts6JB-83M" allowfullscreen>
 			</iframe>
 			</div>
 		</div>
@@ -133,9 +202,12 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <script src="js/parallax.js"></script>
 <script src="js/hide-area.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/scrollspy.js"></script>
 
 </body>
 </html>

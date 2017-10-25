@@ -1,8 +1,11 @@
 body {
 	height: 100%;
+	position: relative;
 }
 
-
+a:hover{
+	cursor: pointer;
+}
 
 #landing {
 	padding: 10rem 0;
@@ -18,12 +21,17 @@ body {
 	background-color: rgba(34, 33, 39, 0.92);
 }
 
+.more-btn:hover {
+	color: white;
+	cursor: pointer;
+}
+
 #abogados {
 	background-color: #F2EFEB;
 }
 
 #contacto {
-	background-color: rgba(34, 33, 39, 0.95);
+	background-color: rgba(34, 33, 39, 1);
 }
 
 .nombre-abogado {
@@ -120,5 +128,8 @@ form {
 	padding: 5rem 0;
 	}
 
+	.col-sm-4 {
+		margin-bottom: 2rem;
+	}
 
 }
