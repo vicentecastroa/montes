@@ -7,6 +7,16 @@ a:hover{
 	cursor: pointer;
 }
 
+footer {
+	background-color: #f2f2f2;
+	padding-bottom: 0.4rem;
+	padding-top: 1rem;
+}
+
+.hidden {
+	display: none;
+}
+
 #landing {
 	padding: 10rem 0;
 	height: 40rem;
@@ -18,7 +28,7 @@ a:hover{
 }
 
 #areas {
-	background-color: rgba(34, 33, 39, 0.92);
+	background-color: rgba(34, 33, 39, 1);
 }
 
 .more-btn:hover {
@@ -37,6 +47,10 @@ a:hover{
 .nombre-abogado {
 	background-color: rgb(34,33,39);
 	padding: 0.5rem 0rem;
+}
+
+.foto-abogado {
+	max-height: 225px;
 }
 
 .abogado-box{
@@ -103,6 +117,10 @@ form {
 .texto-area-open {
 	overflow: auto;
 	height: auto;
+}
+
+.footer-text {
+	font-size: 0.7rem;
 }
 
 @media only screen and (min-width: 768px) {

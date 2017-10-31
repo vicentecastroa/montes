@@ -124,10 +124,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-6 abogado-box">
-					<img class="img-responsive mx-auto d-block" src="images/saul.jpg">
+					<!--<img class="img-fluid mx-auto d-block foto-abogado" src="images/crisitan.jpg">-->
 				<h4 class="nombre-abogado text-center white-font">Cristián Pérez Montes</h4>
 				<h5 class="cargo text-center yellow-font">Socio Fundador</h5>
+				<h5 class="text-center"><a class="yellow-font" href="mailto:cpmontes@montesabogados.cl">cpmontes@montesabogados.cl</a></h5>
 				<ul class="dark-grey-font">
+					<li><i class="fa fa-caret-right" aria-hidden="true"></i>Abogado</li>
 					<li><i class="fa fa-caret-right" aria-hidden="true"></i>Pontificia Universidad Católica de Chile</li>
 					<li><i class="fa fa-caret-right" aria-hidden="true"></i>Diplomado en Negociación, Pontificia Universidad Católica de Chile, 2016</li>
 					<li><i class="fa fa-caret-right" aria-hidden="true"></i>Diplomado en Derecho Inmobiliario de la Empresa, Universidad de Los Andes, 2016</li>
@@ -136,9 +138,10 @@
 				</ul>
 			</div>
 			<div class="col-12 col-sm-6 abogado-box">
-				<img class="img-responsive mx-auto d-block" style="max-height: 225px;" src="images/kim.png">
+				<!-- <img class="img-fluid mx-auto d-block" style="max-height: 225px;" src="images/kim.png"> -->
 				<h4 class="nombre-abogado text-center white-font">Marcela Montes Torres</h4>
 				<h5 class="cargo text-center yellow-font">Socia</h5>
+				<h5 class="cargo text-center"><a class="yellow-font" href="mailto:mmontesto@montesabogados.cl">mmontesto@montesabogados.cl</a></h5>
 				<ul class="dark-grey-font">
 					<li><i class="fa fa-caret-right" aria-hidden="true"></i>Abogada</li>
 					<li><i class="fa fa-caret-right" aria-hidden="true"></i>Universidad UNNIAC</li>
@@ -172,7 +175,7 @@
 			  width="600"
 			  height="450"
 			  frameborder="0" style="border:0"
-			  src="https://www.google.com/maps/embed/v1/place?q=montes%20abogados%20-vial&key=AIzaSyBrWk3y5WU0DVUNsx30VhTTR2ts6JB-83M" allowfullscreen>
+			  src="https://www.google.com/maps/embed/v1/place?q=montes%20abogados%20-covarrubias%20-vial&key=AIzaSyBrWk3y5WU0DVUNsx30VhTTR2ts6JB-83M" allowfullscreen>
 			</iframe>
 			</div>
 		</div>
@@ -181,23 +184,32 @@
 			<p class="light-grey-font address"><i class="fa fa-map-marker" aria-hidden="true"></i> Av. Apoquindo 6410, Oficina 212, Las Condes, Santiago</p>
 			<p class="light-grey-font address"><i class="fa fa-phone" aria-hidden="true"></i> +56998702871 / +56962278359 </p>
 			<p class="light-grey-font address"><i class="fa fa-envelope-o" aria-hidden="true"></i> secretaria@montesabogados.cl </p>
-			<h5 class="light-grey-font" id="consultanos">Consúltanos por tu caso. Te responderemos a la brevedad.</h5>
-			<form>
+
+
+			<form role='form' id="contactForm">
 				<div class="form-group">
-					<input type="text" class="form-control" id="inputname" placeholder="Nombre">
+					<input name="name" type="text" class="form-control" id="name" placeholder="Nombre" required>
 				</div>	
 				<div class="form-group">	
-					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					<input name="email" type="email" class="form-control" id="mail" placeholder="Email" required>
 				</div>
 				<div class="form-group">
-					<textarea class="form-control" id="inputbody" rows="4" placeholder="Mensaje..."></textarea>
+					<textarea name="message" class="form-control" id="message" rows="4" placeholder="Mensaje..." required></textarea>
 				</div>
 				<button type="submit" class="btn btn-lg btn-block" id="send-button">Enviar</button>
-
 			</form>
+			<h5 class="light-grey-font consultanos hidden" id="msgSubmit">Mensaje enviado! Te responderemos a la brevedad.</h5>
+
+
+
+
 		</div>
 	</div>
 </div>
+
+<footer> 
+	<p class="text-center footer-text">Sitio desarrollado por Vicente Castro Aguirre (vicentecastroa@gmail.com)</p>
+</footer>
 
 
 
@@ -208,6 +220,7 @@
 <script src="js/hide-area.js"></script>
 <script src="js/navbar.js"></script>
 <script src="js/scrollspy.js"></script>
+<script src="js/mail-script.js"></script>
 
 </body>
 </html>
